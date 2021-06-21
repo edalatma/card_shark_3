@@ -14,12 +14,6 @@ This file generates the tables and figures seen in the paper which can also be f
 4. `jupyter notebook`
 5. Open `main.ipynb`, select the `kernel > change kernel` dropdown menu and select the `card_shark_3_paper` environment. You can now run through each of the cells to obtain the same results as those stored in `results.tar.gz`.
 
-## `card_papers.pkl` -
-
-```sql
-
-```
-
 ## `card_pubs.csv` - Jan 12, 2021
 
 ```sql
