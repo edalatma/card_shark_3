@@ -1,0 +1,46 @@
+{
+    "sep-card": {
+        "headers": [
+            "AMR gene described",
+            "Elevated MIC?",
+            "Curatable into CARD?"
+        ],
+        "validations": "validation_distribution\\resources\\sep_dist\\complete validation",
+        "terms": [
+            "card"
+        ],
+        "corrections": {
+            "card": {
+                "153": {
+                    "0": 1,
+                    "1": 1,
+                    "2": 0
+                }
+            }
+        }
+    },
+    "nov-card-rf": {
+        "headers": [
+            "Is there an AMR gene described in the abstract?",
+            "Elevated MIC anywhere in the paper?",
+            "Would you curate the gene into CARD based solely on the abstract--without looking at the genes we currently have in CARD?"
+        ],
+        "validations": "validation_distribution\\resources\\nov_dist\\complete validation",
+        "terms": [
+            "card",
+            "-rf"
+        ]
+    },
+    "nov-card-nb": {
+        "headers": [
+            "Is there an AMR gene described in the abstract?",
+            "Elevated MIC anywhere in the paper?",
+            "Would you curate the gene into CARD based solely on the abstract--without looking at the genes we currently have in CARD?"
+        ],
+        "validations": "validation_distribution\\resources\\nov_dist\\complete validation",
+        "terms": [
+            "card",
+            "-nb"
+        ]
+    }
+}
